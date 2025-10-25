@@ -73,7 +73,7 @@ const secciones = [
             { 
                 titulo: 'Restaurante 1', 
                 descripcion: 'Este estilo de página para su restaurante es simple, pero da ese toque serio y refinado que su establecimiento merece.', 
-                link: 'https://Restaurante1.github.io', 
+                link: 'https://brionessdw.github.io/Restaurante1.github.io/', 
                 textoLink: 'Ver más' 
             },
             { 
@@ -117,4 +117,5 @@ function initSections() {
         const todasLasSecciones = secciones.map(s => generarSeccion(s)).join('\n\n');
         contenedor.innerHTML = todasLasSecciones;
     }
+
 }
