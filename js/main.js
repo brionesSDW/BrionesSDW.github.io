@@ -52,7 +52,7 @@ function generarSeccion(config) {
                 <p class="m-st0-Ejemplo-p-desc">
                     ${articulo.descripcion}
                 </p>
-                <a href="${articulo.link}" class="m-st0-Ejemplo-a-link">
+                <a href="${articulo.link}" class="m-st0-Ejemplo-a-link" target="_blank">
                     ${articulo.textoLink}
                 </a>
             </article>`).join('\n');
@@ -119,3 +119,4 @@ function initSections() {
     }
 
 }
+
