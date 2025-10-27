@@ -78,7 +78,7 @@ const secciones = [
             },
             { 
                 titulo: 'Restaurante 2', 
-                descripcion: 'Este estilo de página para su restaurante es parecido a la página en la cual usted se encuentra actualmente, pero ceunta con elementos distintivos que le podrían gustar.', 
+                descripcion: 'Este estilo de página para su restaurante es parecido a la página en la cual usted se encuentra actualmente, pero cuenta con elementos distintivos que le podrían gustar.', 
                 link: 'https://brionessdw.github.io/Restaurante2.github.io/', 
                 textoLink: 'Ver más' 
             }
@@ -119,5 +119,6 @@ function initSections() {
     }
 
 }
+
 
 
